@@ -1,0 +1,57 @@
+div, div ul {
+  font-family: sans-serif;
+  color: #757575;
+}
+
+div ul {
+  font-size: 20px;
+  padding: 30px;
+  margin: 10px;
+}
+
+h3 {
+  color: #757575;
+}
+
+.cnter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#flexi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flexi > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+table th {
+  padding: 15px;
+  margin: 10px;
+  background-color: #f0f1ff;
+  font-size: 30px;
+  color: #303030;
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-width: thin;
+}
+
+td {
+  padding: 5px;
+  background-color: #f9f9ff;
+  font-size: 18px;
+  color: #303030;
+  border-style: solid;
+  border-color: #d6d6d6;
+  border-width: thin;
+}
+
+/*# sourceMappingURL=master.css.map */

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dynamic Width responsive design</title>
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0">
+    <style>
+      @media (min-width: 500px) {
+        h1::before {
+          content: "Welcome to my Web Page!";
+        }
+
+      @media (max-width: 499px) {
+        h1::before {
+          content: "Welcome";
+        }
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+  </body>
+</html>

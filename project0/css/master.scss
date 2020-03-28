@@ -1,0 +1,64 @@
+$fontColor: rgb(117, 117, 117);
+
+%fontSetting {
+  font-family: sans-serif;
+  color: $fontColor;
+}
+
+div {
+  ul {
+    @extend %fontSetting;
+    font-size: 20px;
+    padding: 30px;
+    margin: 10px;
+  }
+}
+
+h3 {
+  color: $fontColor;
+}
+
+div {
+    @extend %fontSetting;
+}
+
+.cnter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#flexi {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flexi > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
+table th {
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(240, 241, 255);
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
+  border-width: thin;
+}
+
+td {
+  padding: 5px;
+  background-color: rgb(249, 249, 255);
+  font-size: 18px;
+  color: rgb(48, 48, 48);
+  border-style: solid;
+  border-color: rgb(214, 214, 214);
+  border-width: thin;
+}
